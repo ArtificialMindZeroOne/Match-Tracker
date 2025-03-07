@@ -10,6 +10,10 @@ React, TypeScript, Tailwind, FSD, REST API, Vite.
 
 #### Команды:
 
+git clone https://github.com/ArtificialMindZeroOne/Match-Tracker.git - Клонирование репозитория.
+
+cd Match-Tracker - Переход в загруженный репозиторий.
+
 npm i - Установка зависимостей.
 
 npm run dev - Запуск в режиме разработки.
