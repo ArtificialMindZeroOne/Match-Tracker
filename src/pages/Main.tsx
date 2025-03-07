@@ -42,9 +42,7 @@ const Main = () => {
       </header>
       <div className="px-[42px]">
         {dataList.length > 0 ? (
-          <ul className="flex flex-col gap-[12px]">
-            <MatchsList dataList={dataList} />
-          </ul>
+          <MatchsList dataList={dataList} />
         ) : isError ? (
           <h2 className="text-white text-center text-[30px] mt-10 animate-visibility">
             {btns.emptyList}

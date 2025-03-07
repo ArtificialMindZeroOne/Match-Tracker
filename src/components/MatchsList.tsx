@@ -6,7 +6,7 @@ import { MatchsListProps } from "../types/types";
 
 const MatchsList = ({ dataList }: MatchsListProps) => {
   return (
-    <ul>
+    <ul className="flex flex-col gap-[12px]">
       {dataList.map((el, idx) => {
         const statusTableColor: string | undefined = statusList[el.status];
 
