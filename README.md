@@ -23,3 +23,9 @@ npm run build - Сборка билда.
 - Настроить линтер-правила.
 - Настроить автоформаттер prettier запуском командой.
 - Настроить Welcome Page.
+- Адаптировать по мобильную версию.
+- Настроить Service-Worker для PWA - быстрый старт кросс-платформенного решения.
+
+##### Деплой Vercel:
+
+[match-tracker-flax.vercel.app](https://match-tracker-flax.vercel.app/)
